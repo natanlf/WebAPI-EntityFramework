@@ -15,8 +15,11 @@
 
   <ItemGroup>
     <Folder Include="Config\" />
-    <Folder Include="Context\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Switch.Domain\Switch.Domain.csproj" />
   </ItemGroup>
 
 </Project>
